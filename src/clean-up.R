@@ -1,3 +1,4 @@
+#GIVEN INFO
 # Deletes files in all subdirectories with the endings specified here
 fileEndings <- c('*.log','*.aux','*.Rout','*.Rhistory','*.fls','*.fdb_latexmk')
 for (fi in fileEndings) { 
